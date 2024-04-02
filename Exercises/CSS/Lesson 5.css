@@ -1,0 +1,137 @@
+.tahoma 
+{font-family: tahoma;
+ font-size: 25;
+ font-weight: bold;}
+
+.big 
+{font-family: Arial;
+ font-size: 25;
+ font-weight: bold;
+ width: 350;
+ text-align:center;
+ margin-bottom: 0;}
+
+.sales 
+{font-style: italic;
+ font-size: 16;
+ color:grey;
+ text-align:center;
+ margin-top: 0;}
+
+.html 
+{font-size: 20;
+ font-weight: bold;
+ font-family: Verdana;
+ margin-bottom: 0;}
+
+.begin 
+{font-family: Verdana;
+ font-size: 13;
+ color: grey;
+ margin-top: 0.1;}
+
+.course 
+{font-family: Verdana;
+ width: 300;}
+
+.start 
+{background-color: rgb(40, 136, 40);
+ color: white;
+ border-radius: 8px;
+ border:none;
+ padding-top: 10;
+ padding-bottom: 10;
+ padding-left: 15;
+ padding-right: 15;}
+
+.start:hover 
+{cursor: pointer;
+ background-color: rgb(77, 129, 77);}
+
+.shop 
+{font-family: arial;
+ font-size: 20;
+ font-weight: bold;
+ margin-bottom: 8;}
+
+.see 
+{font-size: 15;
+ text-align: 15;}
+
+.learn 
+{color:rgb(146, 146, 233);}
+
+p 
+{font-family: arial;}
+
+.new
+{color: rgb(179, 117, 3);
+ margin-top: 50;
+ margin-bottom: 0; 
+ text-align: center;}
+
+.mac 
+{font-weight: bold; 
+ margin-bottom: 1;
+ margin-top: 1;
+ text-align: center;}
+
+.super
+{font-size: 30;
+ font-weight: bold;
+ margin-top: 0;
+ margin-bottom: 0; 
+ text-align: center;}
+
+.from 
+{color: grey;
+ margin-top: 1;
+ text-align: center;
+ margin-bottom: 8;}
+
+.buy 
+{background-color: blueviolet;
+ color: white;
+ border: none;
+ border-radius: 10px;
+ display:block;
+ margin: auto;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ padding-left: 10px;
+ padding-right: 10px;
+ margin-top: 1;
+ margin-bottom: 100;
+ transition: 0.5s;}
+
+.buy:hover 
+{cursor: pointer;
+ opacity: 0.1px;
+ background-color: rgb(210, 177, 241);}
+
+.buy:active 
+{background-color: rgb(30, 2, 56);}
+
+.num 
+{font-size: 30;
+ font-weight: bold;
+ margin-bottom: 0;}
+
+.usd 
+{color: grey;
+ font-size: 15;}
+
+.num1, .after 
+{color: grey;
+margin-top: 1;
+margin-bottom: 1;}
+
+.freec 
+{margin-top: 100;
+ font-weight: bold;}
+
+.free 
+{color:grey;}
+
+.chp 
+{color:rgb(135, 135, 248);}

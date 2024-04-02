@@ -1,0 +1,105 @@
+ .thumbnail
+ {width: 100%;}
+
+ .channel-pic
+ {display:inline-block;
+ width:50px;
+  vertical-align: top;}
+
+.video-info
+{display:inline-block;
+width:250px;}
+
+.video-info-grid
+{display: grid;
+grid-template-columns: 50px 1fr;}
+
+.profile-pic
+{width:36px;
+border-radius: 50px;}
+
+.video-title
+{margin-top: 0px;
+ font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+margin-bottom: 10px;}
+
+.thumbnail-row
+{margin-bottom: 8px;
+position: relative;}
+
+.video-author, .video-stats
+{font-size: 12px;
+color:rgb(96,96,96);}
+
+.video-author
+{margin-bottom: 4px;}
+
+.video-grid
+{display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 16px;
+row-gap: 40px;
+ }
+
+@media (max-width:777px)
+{.video-grid {grid-template-columns: 1fr 1fr;}}
+
+@media (min-width:778px) and (max-width:999px)
+{.video-grid {grid-template-columns:1fr 1fr 1fr;}}
+
+@media (min-width:1000px)
+{.video-grid {grid-template-columns:1fr 1fr 1fr 1fr;}}
+
+.video-title, .thumbnail:hover
+{cursor:pointer;}
+
+.video-time
+{font-family: roboto, Arial;
+font-size: 12px;
+font-weight: 500;
+padding: 4px;
+border-radius: 2px;
+background-color: black;
+color:white;
+position: absolute;
+bottom:8px;
+right:5px;
+}
+
+/* The styles below are useless as of now but they are meant for tooltip*/
+.profile-tooltip
+{background-color: white;
+border-radius: 4px;
+width:200px;
+position:absolute;
+border-color: rgb(113, 241, 7);
+box-shadow: rgba(5px 5px 5px 0.15px);
+display:flex;
+align-items:left;
+justify-content: center;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 5px;
+position: absolute;}
+
+
+.pro
+{display: inline-block;
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;}
+
+.mar
+{font-weight: bold;
+display:flex;
+font-family: roboto, Arial;
+flex-direction: column;
+margin-left: 5px;}
+
+.sub
+{color:gray;
+font-size: 10px;
+font-family: roboto, Arial;}

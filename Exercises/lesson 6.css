@@ -1,0 +1,16 @@
+p 
+{font-family: Montserrat;}
+
+.model
+{font-weight: bold;
+ font-size: 50px;
+ margin-top: 0px;
+ margin-bottom: 1px;
+ }
+
+ .order
+ {color:rgb(74, 77, 102);}
+
+.touch
+{text-decoration-line: underline;
+ color:rgb(74, 77, 102);}

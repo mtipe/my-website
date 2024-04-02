@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid</title>
+
+        <style>
+            .all
+            {display:grid;
+             grid-template-columns: 200px 75px;
+             margin-top: 10px;}
+
+            .num1
+            {background-color: brown;}
+
+            .num2
+            {background-color: rgb(79, 42, 165);}
+
+            .all2
+            {display:grid;
+             grid-template-columns: 50px 1fr 75px;
+             margin-top: 10px;}
+
+            .num3
+            {background-color: rgb(85, 243, 80);}
+
+            .num4
+            {background-color: rgb(250, 0, 0);}
+
+            .num5
+            {background-color: rgb(124, 94, 94);
+             }
+             
+
+            .all3
+            {display:grid;
+             grid-template-columns: 1fr 1fr 1fr 1fr;
+             column-gap: 20px;
+             row-gap: 10px;
+             margin-top: 10px;}
+
+            .num6
+            {background-color: rgb(126, 91, 255);}
+
+            .num7
+            {background-color: rgb(71, 250, 0);}
+
+            .num8
+            {background-color: rgb(223, 160, 160);}
+
+            .num9
+            {background-color: rgb(180, 187, 84);}
+
+
+
+
+
+        </style>
+        
+    </head>
+
+    <body>
+    <div class="all">
+        <div class="num1">
+            <p>200px</p>                
+        </div>
+        <div class="num2">
+            <p>75px</p>
+        </div>
+    </div>
+       
+
+
+    <div class="all2">
+        <div class="num3">
+            <p>col1</p>                
+        </div>
+        <div class="num4">
+            <p>col2</p>
+        </div>
+        <div class="num5">
+            <p>col3</p>
+        </div>
+    </div>
+
+
+
+    <div class="all3">
+        <div class="num6">
+            <p>col1</p>                
+        </div>
+        <div class="num7">
+            <p>col2</p>
+        </div>
+        <div class="num8">
+            <p>col3</p>
+        </div>
+        <div class="num9">
+            <p>col4</p>
+        </div>
+        <div class="num6">
+            <p>col1</p>                
+        </div>
+        <div class="num7">
+            <p>col2</p>
+        </div>
+        <div class="num8">
+            <p>col3</p>
+        </div>
+        <div class="num9">
+            <p>col4</p>
+        </div>
+    </div>
+       
+    </body>
+</html>

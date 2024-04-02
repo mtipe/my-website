@@ -1,0 +1,64 @@
+.cap
+{width:50px;
+ border-radius: 30px;
+ display:inline-block;}
+
+p
+{color:rgb(209, 181, 181);
+ margin-bottom: 0;}
+
+.follow
+{background-color: rgb(162, 162, 236);
+ color:white;
+ border:none;
+ border-radius: 6px;
+ padding-top: 6px;
+ padding-bottom: 6px;
+ padding-left: 10px;
+ padding-right: 10px;
+ font-weight: bold;
+ transition: 0.8s;}
+
+.follow:hover
+{opacity: 0.4;
+ cursor:pointer;}
+
+.follow:active
+{background-color: rgb(184, 3, 64);}
+
+.but
+{display:inline-block;
+ margin-left: 100px;}
+ 
+.but2
+ {display:inline-block;
+  margin-left: 85px;}
+ 
+.but3
+{display:inline-block;
+ margin-left: 60px;}
+ 
+ 
+
+.no
+{display:inline-block;
+ margin-right: 10px;}
+
+.text
+{display:inline-block;}
+
+.yes
+{display:inline-block;
+margin-left: 10px;
+vertical-align: middle;}
+
+.oli
+{font-weight: bold;
+ color:black;
+ font-size: 13px;}
+
+.cat, .pop
+{margin-top: 0px;
+ margin-bottom: 0px;
+ font-size: 13px;}
+
